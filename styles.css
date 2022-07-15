@@ -1,0 +1,66 @@
+body {
+  padding: 50px;
+}
+
+h1 {
+  font-family: arial;
+  font-weight: bold;
+}
+
+#map {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+nav{
+  display: block;
+}
+
+li {
+  display:inline;
+  float: right;
+  padding: 10px;
+  border-width: thin;
+}
+
+li a {
+  padding: 8px;
+  color: grey;
+  border-radius: 5px;
+  background-color: lightgrey;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+section p {
+  width: 50%;
+}
+
+footer {
+  float: right;
+}
+
+footer p {
+    display: inline;
+}
+
+footer p a {
+  text-decoration: none;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
