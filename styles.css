@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   padding: 50px;
 }
@@ -5,6 +9,14 @@ body {
 h1 {
   font-family: arial;
   font-weight: bold;
+}
+
+h1 span {
+  color: grey; 
+  background-color: lightgrey;
+  padding: 8px;
+  border-radius: 5px;
+
 }
 
 #map {
@@ -34,8 +46,19 @@ li a {
   text-transform: lowercase;
 }
 
+section {
+  background-image: url("https://wallpaperaccess.com/full/6134820.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 150px;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 10px;
+  overflow: scroll;
+}
 section p {
-  width: 50%;
+  width: 50%;  
+  
 }
 
 footer {
