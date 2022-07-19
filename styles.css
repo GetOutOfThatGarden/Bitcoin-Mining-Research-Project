@@ -4,6 +4,16 @@
 
 body {
   padding: 50px;
+  /* background-color:azure; */
+}
+
+#banner {
+  background-color:grey;
+  text-align: left;
+  padding-left: 3em;
+  margin-left: -4em;
+  margin-right: -4em;
+  margin-top: -4em;
 }
 
 h1 {
@@ -13,8 +23,8 @@ h1 {
 
 h1 span {
   color: grey; 
-  background-color: lightgrey;
-  padding: 8px;
+  /* background-color: lightgrey; */
+  /* padding: 8px; */
   border-radius: 5px;
 
 }
@@ -27,14 +37,14 @@ h1 span {
 }
 
 nav{
-  display: block;
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 li {
-  display:inline;
-  float: right;
+  display: inline-block;
   padding: 10px;
-  border-width: thin;
 }
 
 li a {
@@ -43,30 +53,29 @@ li a {
   border-radius: 5px;
   background-color: lightgrey;
   text-decoration: none;
-  text-transform: lowercase;
 }
 
 section {
   background-image: url("https://wallpaperaccess.com/full/6134820.jpg");
   background-size: cover;
   background-position: bottom center;
-  height: 150px;
-  padding: 8px;
+  height: 200;
+  width: 65%;
+  padding: 25px;
   border-radius: 5px;
   margin-top: 10px;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 section p {
-  width: 50%;  
-  
+  width: 100%;  
 }
 
 footer {
-  float: right;
+  position: right;
 }
 
 footer p {
-    display: inline;
+  display: inline;
 }
 
 footer p a {
@@ -74,10 +83,10 @@ footer p a {
 }
 
 .map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+  overflow:hidden;
+  position:relative;
+  height:0;
+  padding-bottom:56.25%;
 }
 
 .map-responsive iframe{
