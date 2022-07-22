@@ -58,7 +58,7 @@ li a {
   color: rgb(247, 239, 202);
 }
 
-li :hover { 
+li hover { 
   color: grey;
   background-color: rgb(247, 239, 202);
   border: solid;
