@@ -4,12 +4,13 @@
 
 body {
   padding: 50px;
+  padding-top: 3em;
   /* background-color:azure; */
-}
+  background-image: url("https://wallpaperaccess.com/full/6134820.jpg");
+} 
 
 #banner {
-  background-color: #f2f2f2;
-  text-align: left;
+  background-color: rgb(247, 239, 202);
   padding-left: 3em;
   margin-left: -4em;
   margin-right: -4em;
@@ -17,15 +18,16 @@ body {
 }
 
 h1 {
+  /* background-color:rgb(129, 101, 7); */
   font-family: arial;
   font-weight: bold;
+  text-align: left;
+  padding-top: -10em;
+  
 }
 
 h1 span {
-  color: grey; 
-  /* background-color: lightgrey; */
-  /* padding: 8px; */
-  border-radius: 5px;
+  color: grey;
 
 }
 
@@ -49,10 +51,19 @@ li {
 
 li a {
   padding: 8px;
-  color: grey;
+  background-color: rgb(247, 239, 202);
   border-radius: 5px;
-  background-color: lightgrey;
+  background-color: grey;
   text-decoration: none;
+  color: rgb(247, 239, 202);
+}
+
+li :hover { 
+  color: grey;
+  background-color: rgb(247, 239, 202);
+  border: solid;
+  border-color: grey;
+
 }
 
 section {
